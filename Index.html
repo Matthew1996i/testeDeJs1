@@ -1,0 +1,25 @@
+<!DOCTYPE html lang="pt-br">
+<html>
+<head>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="">
+	<title>Calculadora de IMC</title>
+</head>
+<body>
+	<input type="button" value="Copy" onclick="muda()"></input>
+
+	<h1 id="mudei">Copiar e Mudar</h1>
+
+<script>
+
+	function muda(){
+		var repeat = document.getElementById('mudei').innerHTML;
+		document.getElementById('text').innerHTML = repeat
+	}
+
+</script>
+
+<h1 id="text"></h1>
+
+</body>
+</html>
